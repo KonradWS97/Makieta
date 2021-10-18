@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.top
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* padding: ; */
+    height: 100px;
+    padding-right: 5%;
+}
+.buttonTop
+{   width: 25%;
+    height: 32%;
+    color: #000;
+    border-radius: 10px;
+    /* font-size: large; */
+    background-color: white;
+    font-weight: bold;
+    border-color: antiquewhite;
+    box-shadow: none;
+}
+.line
+{
+    display: inline-block;
+    background-color: antiquewhite;
+    width: 45%;
+    height: 1px;
+    margin-top: 21px
+}
+.subtitlesTop
+{
+    display: inline-block;
+    float: right;
+    padding-right: 5%;
+    color:pink;
+    font-size: xx-large;
+}
+.top2
+{
+    padding-top: 3%;
+}
+.article1
+{
+    display: block;
+    margin-top: 5%;   
+}
+.h2
+{   color:gray;
+    padding-left:5%;
+    font-weight: 900;
+    font-size: 200%;
+    display: inline-block;
+}
+.h1
+{   padding-left:5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: 900;
+    font-size: 300%;
+    color:#C7A1A8;
+}
+.art
+{ 
+    display:inline-block;
+    padding-left: 5%;
+    padding-top: 10%;
+    width: 72%;
+}
+.rightSubtitles
+{
+    display:inline-block;
+    transform: rotate(90deg) translateY(-100px) translateX(-120px);
+    color: pink;
+    font-size: x-large;
+}
+.h3
+{
+    font-weight: 500;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+.secondLine
+{
+    display: inline-block;
+    background-color: antiquewhite;
+    width: 55%;
+    height: 1px;
+    margin-top: 21px
+}
+.art2
+{
+    padding-top: 3%;
+}
+.carCarouser
+{
+    padding-top: 15%;
+}
+.downPartOfCarouser 
+{
+    padding-top: 5%;
+}
+.downPartOfCarouser2222
+{
+    padding-top: 5%;
+}
+.textOnStandardCar
+{
+    position: relative;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.textStandard
+{
+    color: #fff;
+    font-size: xx-large;
+    letter-spacing: 10px;
+    font-family: Familiar Pro;
+}
+.textOnWeddingCar
+{
+    position: relative;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.textWedding
+{   
+    display: block;
+    color:grey;
+    font-size: xx-large;
+    letter-spacing: 10px;
+    font-family: Familiar Pro;
+}
+.textWedding::after
+{   
+    display: block;
+    content: "DO ŚLUBU";
+    color: #fff;
+    margin-left: 20%;
+}
+.textOnLuxCar
+{
+    position: relative;
+    /* text-align: center; */
+    /* margin-right: 5%; */
+    margin-top: 15%;
+}
+.textLux
+{
+    color: gray;
+    font-size: xx-large;
+    letter-spacing: 10px;
+    font-family: Familiar Pro;
+    margin-left: 55%;
+}
+.textLux::after
+{
+    display: block;
+    content: "LUKSUSOWE";
+    color: #fff;
+    margin-left: 20%;
+}
+.textOnSportCar
+{   display: block;
+    width: 300px;
+    height: 200px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    text-align: left;
+}
+.textSport
+{   
+    display:inline-block;
+    color: gray;
+    font-size: xx-large;
+    letter-spacing: 10px;
+    font-family: Familiar Pro;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+.textSport::after
+{
+    display: block;
+    content: "SPORT";
+    color: #fff;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.nameOfTheCar
+{
+    display: inline-block;
+    margin-left: 15%;
+    color: #C7A1A8;
+}
+.typeOfTheCars
+{   
+    display: inline-block;
+    margin: 5%;
+    list-style: none;
+}
+#typeOfTheCars>li
+{
+    cursor: pointer;
+    margin-bottom: 15%;
+    font-weight: bolder;
+}
+.bigPicCar
+{
+    display: inline-block;
+    display: inline-block;
+    width: 100%;
+}
+.chasingCar
+{
+    display: inline-block;
+}
+.wybranysamochod
+{
+    margin-top: 3%;
+}
+.detalFotoChasingCar
+{
+    margin-top: 5%;
+    margin-left: 16%;
+}
+.detal
+{
+    margin-right: 4%;
+}
+@media (max-width: 1200px) {
+    .buttonTop {
+        font-size:xx-small;
+    }
+    .line {
+        display: inline-block;
+        background-color: antiquewhite;
+        width: 31%;
+    }
+    .textOnSportCar {
+        display: block;
+        width: 220px;
+        height: 160px;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: relative;
+        text-align: left;
+    }
+    .textSport {
+       font-size: x-large;
+    }
+    .textLux {
+        font-size: x-large;
+    }
+    .textWedding {
+        font-size: x-large;
+    }
+    .textStandard {
+        font-size: x-large;
+    }
+    .rightSubtitles {
+        display: inline-block;
+        transform: rotate(90deg) translateY(-110px) translateX(-136px);
+        color: pink;
+        font-size: x-large;
+        float: right;
+    }
+    .article2
+    {
+    margin-top: 10%;
+    }
+    .typeOfTheCars
+    {
+        margin-left: 20%;
+    }
+    .nameOfTheCar {
+        transform: translateX(284px) translateY(211px);
+    }
+    .detal {
+        padding: 10px;
+        margin-right: 0%; 
+    }
+    .bigPicCar {
+        display: block;
+        width: 926px;
+        padding: 5%;
+    }
+    @media (max-width: 812px) {
+        .subtitlesTop {
+            display: inline-block;
+            float: right;
+            padding-right: 5%;
+            color: rgb(205, 255, 192);
+            font-size: smaller;
+            margin-top: 2%;
+        }
+        .line {
+            display: inline-block;
+            background-color: antiquewhite;
+            width: 32%;
+            height: 1px;
+            margin-top: 0px;
+        }
+        .h2, h2 {
+            font-size: small !important;
+        }
+        .h1, h1 {
+            font-size: 1.5rem !important;
+            font-weight: 400;
+        }
+        .h3 {
+            font-size: small !important;
+        }
+        .textOnSportCar {
+            display: block;
+            width: 200px;
+            height: 140px;
+            z-index: 2;
+            background-color: rgba(0, 0, 0, 0.6);
+            position: relative;
+            text-align: left;
+        }
+        .textSport {
+            display: inline-block;
+            color: gray;
+            font-size: x-large;
+            letter-spacing: 10px;
+            font-family: Familiar Pro;
+            margin-left: 27%;
+            margin-top: 5%;
+        }
+        .textStandard {
+            font-size: x-large;
+        }
+        .textOnStandardCar {
+            margin-top: 10%;
+            margin-right: 13%;
+        }
+        .textWedding {
+            font-size: x-large;
+        }
+        .textOnWeddingCar {
+            margin-top: 10%;
+            margin-left: 14%;
+        }
+        .textLux {
+            font-size: x-large;
+        }
+        .textOnLuxCar {
+            margin-right: 10%;
+            margin-top: 15%;
+        }
+        .typeOfTheCars {
+            margin-left: 10%;
+            font-size: xx-small;
+        }
+        .chasingCar {
+            display: block;
+        }
+        .bigPicCar {
+            display: revert;
+            width: 375px;
+            padding: 10px;
+        }
+        .detal {
+            width: 100px;
+            display: inline-block;
+            padding: 10px;
+        }
+        .carousel-inner {
+            position: relative;
+            width: 333px !important;
+            overflow: hidden;
+        }
+        .rightSubtitles {
+            display: inline-block;
+            transform: rotate(90deg) translateY(-20px) translateX(-136px);
+            color: #d0c0ff;
+            font-size: x-large;
+            float: right;
+        }
+        
+        .rightSubtitles {
+            display: inline-block;
+            transform: rotate(90deg) translateY(-20px) translateX(-136px);
+            color: pink;
+            font-size: x-large;
+        }
+        .carousel-item
+        {
+            padding-top: 10px;
+        }
+        .carousel-item :active
+        {
+            padding-top: 10px;
+        }
+        .buttonTop {
+            width: 40%;
+        }
+        .detalFotoChasingCar {
+            margin-top: 5%;
+            margin-left: 18%;
+        }
+        .typeOfTheCars {
+            margin-left: 15%;
+            font-size: xx-small;
+        }
+        .nameOfTheCar {
+            transform: translateX(120px) translateY(72px);
+            font-size: small;
+        }
+        .textOnSportCar {
+            margin-top: 3%;
+        }
+    }
+    /* @media (max-width: 568px) {
+        .bigPicCar {
+            display: revert;
+            width: 370px;
+            padding: 10px;
+        }
+        .rightSubtitles {
+            display: inline-block;
+            transform: rotate(
+        90deg) translateY(-70px) translateX(-136px);
+        }
+        .line 
+        {
+            display: inline-block;
+            background-color: antiquewhite;
+            width: 28%;
+            height: 1px;
+            margin-top: 0px;
+        }
+        .subtitlesTop {
+            display: inline-block;
+            float: right;
+            padding-right: 5%;
+            color: pink;
+            font-size: smaller;
+            margin-top: 2%;
+        }
+        .h1{
+            color: purple;
+        }
+    } */
+    @media (min-width: 1024px)
+    {
+        .rightSubtitles {
+            display: inline-block;
+            transform: rotate(
+        90deg) translateY(-20px) translateX(135px);
+            color: pink;
+            font-size: x-large;
+        }
+    }
+}
